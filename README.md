@@ -8,5 +8,5 @@
 - Media queries;
 - Flexbox;
 - Grid layout;
-- JavaScript
+- JavaScript;
 Знакомство с проектом (https://nexedi13.github.io/mesto/index.html)
