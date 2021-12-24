@@ -1,7 +1,7 @@
 let editButton = document.querySelector(".profile-info__edit-btn")
 
 function handleEditButtonClick() {
-    document.querySelector(".pop-up").classList.add('pop-popup_opened')
+    document.querySelector(".pop-up").classList.add('pop-up_opened')
 
     nameInput.value = profileName.innerHTML
     jobInput.value = profileJob.innerHTML
@@ -14,7 +14,7 @@ editButton.addEventListener('click', handleEditButtonClick)
 let closeButton = document.querySelector(".pop-up__close-btn")
 
 function handleCloseButtonClick() {
-    document.querySelector(".pop-up").classList.remove('pop-popup_opened')
+    document.querySelector(".pop-up").classList.remove('pop-up_opened')
 }
 
 closeButton.addEventListener('click', handleCloseButtonClick)

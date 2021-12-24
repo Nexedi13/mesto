@@ -1,0 +1,10 @@
+.pop-up__admin {
+    padding-top: 54px;
+}
+
+@media screen and (max-width: 690px) {
+    .pop-up__admin {
+        padding-bottom: 25px;
+        padding-top: 75px;
+    }
+}

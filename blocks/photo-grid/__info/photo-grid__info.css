@@ -1,0 +1,7 @@
+.photo-grid__info {
+    margin: 0;
+    max-height: 79px;
+    padding: 25px 15px 21px 31px;
+    justify-content: space-between;
+    display: flex;
+}
