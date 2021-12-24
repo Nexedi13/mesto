@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+
+</head>
+
+<body class="page">
+    <div class="page-container">
+        <header class="header">
+            <img class="header__logo" src="./images/logo.svg" alt="Лого">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <div class="profile-info">
+                    <img class="profile-info__img" src="./images/image.jpg" alt="Фото профиля">
+                    <div class="profile-info__info">
+                        <div class="profile-info__title">
+                            <h1 class="profile-info__name">Жак-Ив Кусто</h1>
+                            <button class="profile-info__edit-btn" type="button" aria-label="редактировать"></button>
+                        </div>
+                        <p class="profile-info__job">Исследователь океана</p>
+                    </div>
+                </div>
+                <button class="profile__add-btn" type="button" aria-label="добавить">+</button>
+            </section>
+            <section class="photo-grid">
+                <div class="photo-grid__card">
+                    <img src="./images/lakeKlilook.jpg" alt="Пятнистое озеро Клилук" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Пятнистое озеро Клилук</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+                <div class="photo-grid__card">
+                    <img src="./images/Rocks Rocis.jpg" alt="Горы Рокис" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Горы Рокис</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+                <div class="photo-grid__card">
+                    <img src="./images/Niagara.jpg" alt="Водопад Ниагара" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Водопад Ниагара</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+                <div class="photo-grid__card">
+                    <img src="./images/riverKonioCrystalis.jpg" alt="Коньо-Кристалис" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Коньо-Кристалис</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+                <div class="photo-grid__card">
+                    <img src="./images/MramorCaves.jpg" alt="Мраморные пещеры" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Мраморные пещеры</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+                <div class="photo-grid__card">
+                    <img src="./images/bolshoy-bariernyj-rif.jpg" alt="Большой Барьерный риф" class="photo-grid__item">
+                    <div class="photo-grid__info">
+                        <div class="photo-grid__title">Большой Барьерный риф</div>
+                        <img class="photo-grid__like" src="./images/Vector.svg">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
+        </footer>
+        <div class="pop-up pop-up_type_edit">
+            <div class="pop-up__container">
+                <button class="pop-up__close-btn" type="button" aria-label="закрыть"></button>
+                <h3 class="pop-up__title">Редактировать профиль</h3>
+                <form class="pop-up__admin" name="edit-profile" novalidate>
+                    <div class="pop-up__input-container">
+                        <input type="text" class="pop-up__item" id="name" name="name" placeholder="Имя" minlength="2" maxlength="40" required>
+                        <input type="text" class="pop-up__item" id="job" name="job" placeholder="О себе" minlength="2" maxlength="200" required>
+                    </div>
+                    <button type="submit" class="pop-up__submit-btn">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
