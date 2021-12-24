@@ -9,4 +9,4 @@
 - Flexbox;
 - Grid layout;
 - JavaScript;
-Знакомство с проектом (https://nexedi13.github.io/mesto/index.html)
+- Знакомство с проектом (https://nexedi13.github.io/mesto/index.html)
